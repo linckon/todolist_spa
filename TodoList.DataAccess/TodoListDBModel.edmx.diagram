@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="61eaab4e6cc44d53b72f11adb56ed404" Name="Diagram1">
+        <EntityTypeShape EntityType="TodoListDbModel.Project" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="TodoListDbModel.Task" Width="1.5" PointX="4.125" PointY="2.5" />
+        <AssociationConnector Association="TodoListDbModel.FK_Task_Project" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

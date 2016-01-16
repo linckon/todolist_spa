@@ -1,0 +1,21 @@
+﻿<div class="col-md-9 col-lg-9">
+    <!-- Tab panes For Project-->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="personal">
+            <div class="inner-tab-pane">
+                <div class="row">
+                    <div class="col-md-11">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
+                <ul ng-repeat="p in projects">
+                    <li> {{p.Name}}</li>
+                    <li><a  href="/#/projectdetail/{{p.Id}}">Edit</a>|<a href="javascript:void(0)" ng-click="delete(p)">Delete</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
