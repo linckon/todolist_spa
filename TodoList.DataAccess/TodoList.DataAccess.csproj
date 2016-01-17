@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
+    <None Include="DB_Bak\TodoListDb.bak" />
     <None Include="packages.config" />
     <None Include="TodoListDBModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
