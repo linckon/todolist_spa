@@ -1,7 +1,7 @@
 ﻿angular.module('todolist').service('projectService',
-    ['$resource','$q', function ($resource, $q) {
+    ['$resource', '$q', 'baseUrl', function ($resource, $q, baseUrl) {
 
-        var baseUrl = 'http://localhost:61055//api/';
+        //var baseUrl = 'http://localhost:61055//api/';
         var save = function (project) {
             var defer = $q.defer();
             var resource = $resource(baseUrl + 'Project');

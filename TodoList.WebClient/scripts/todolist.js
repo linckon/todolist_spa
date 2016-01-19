@@ -13,3 +13,5 @@ angular.module('todolist', ['ngRoute', 'ngResource'])
             .otherwise({ redirectTo: '/' });
         }
     ]);
+
+angular.module('todolist').value('baseUrl', 'http://localhost:61055//api/');
